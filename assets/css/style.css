@@ -373,8 +373,8 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 100vh;
-  background: url("../img/coverimage.jpg") right center;
+  height: 85vh;
+  background: url("../img/bg11.jpg") right center;
   background-size: cover;
 }
 
@@ -400,13 +400,13 @@ h6 {
   font-size: 50px;
   font-weight: 500;
   line-height: 56px;
-  color: #e4e4e4;
+  color: yellow;
   padding-left: 20px;
 }
 
 
 #hero p {
-  color: #fff;
+  color: yellow;
   margin-bottom: 50px;
   font-size: 26px;
   font-family: "manrope", sans-serif;
