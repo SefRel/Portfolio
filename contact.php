@@ -19,15 +19,15 @@ $mail->SMTPAuth = true;
 
  //$mail->SMTPDebug = SMTP::DEBUG_SERVER;
 
-$mail->Host = "smtp.gmail.com";
+$mail->Host = "mail.sefrel.com";
 $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
 $mail->Port = 465;
 
-$mail->Username = "ceosefrel@gmail.com";
-$mail->Password = "cnhnmzbkudihjmso";
+$mail->Username = "ridwan@sefrel.com";
+$mail->Password = "Ridakid01@@";
 
 $mail->setFrom($email, $name);
-$mail->addAddress("ridwan@sefrel.com", "Ridwan");
+$mail->addAddress("developer@sefrel.com", "Ridwan");
 
 $mail->Subject = $subject;
 $mail->Body = $message;
